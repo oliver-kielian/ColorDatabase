@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HW11</string>
+    <string name="add">add</string>
+    <string name="sort">sort</string>
+    <string name="rgbvalues">rgbvalues</string>
+    <array name="sort">
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Favorite</item>
+        <item>Default</item>
+    </array>
+</resources>
