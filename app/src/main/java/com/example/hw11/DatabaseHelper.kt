@@ -27,13 +27,6 @@ class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME
             )
         """.trimIndent()
         p0?.execSQL(query)
-        val db = this.readableDatabase
-        db.delete("color", null, null)
-    }
-    fun delete()
-    {
-        val db = this.readableDatabase
-        db.delete("color", null, null)
     }
 
     override fun onUpgrade(p0: SQLiteDatabase?, p1: Int, p2: Int) {
